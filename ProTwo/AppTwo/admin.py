@@ -1,3 +1,5 @@
 from django.contrib import admin
+from AppTwo.models import (Topic, WebUsers)
 
-# Register your models here.
+admin.site.register(Topic)
+admin.site.register(WebUsers)
