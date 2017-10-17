@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from AppTwo.models import WebUsers, Topic
+from AppTwo.models import WebUsers, Topic #Importing the models of AppTwo
 
 def index(request):
     return HttpResponse("You're in the app index")
