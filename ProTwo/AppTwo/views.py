@@ -12,10 +12,12 @@ def help(request):
     return render(request, "AppTwo/help.html", context=my_dict)
 
 def users(request):
-    webusrs = WebUsers.objects.order_by('name')
+    webusers = WebUsers.objects.order_by('name')
+    topz = Topic.objects.order_by('top_name')
     dicto = {
         "one_key":"One register",
-        "webusrs":webusrs,
+        "webusrs":webusers,
+        "topicz":topz,
     }
 
     return render(request, 'AppTwo/users.html', context=dicto)

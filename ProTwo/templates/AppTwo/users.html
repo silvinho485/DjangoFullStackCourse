@@ -20,11 +20,31 @@
         <td>{{acc.name}}</td>
         <td>{{acc.lname}}</td>
         <td>{{acc.email}}</td>
+        {% if acc.img %}
+        <td><img src="{{acc.img.url}}" class="imgGen"></td>
+        {% else %}
+        <td>No img</td>
+        {% endif %}
       </tr>
       {% endfor %}
       {% else %}
       <p>Access error!!!</p>
-      {% endif%}
+    </table>
+    {% endif%}
+
+    {% if topicz %}
+    <table>
+      <thead>
+        <th>Available topics</th>
+      </thead>
+      {% for acc in topicz %}
+      <tr>
+        <td>{{acc.top_name}}</td>
+      </tr>
+      {% endfor %}
+      {% else %}
+      <p>There's no topics to show!!!</p>
+      {% endif %}
     </table>
   </div>
 </body>

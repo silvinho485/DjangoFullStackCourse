@@ -4,3 +4,6 @@ h1{
 table, th, td{
   border: 2px solid black;
 }
+.imgGen{
+  max-height: 80px;
+}

@@ -8,9 +8,10 @@ class Topic(models.Model):
 
 class WebUsers(models.Model):
     topic = models.ForeignKey(Topic)
-    name = models.CharField(max_length=264, unique=True)
-    lname = models.CharField(max_length=264, unique=True)
+    name = models.CharField(max_length=264)
+    lname = models.CharField(max_length=264)
     email = models.CharField(max_length=264, unique=True)
+    img = models.FileField(upload_to='webusers/', null=True)
 
     def __str__(self):
         return self.name
