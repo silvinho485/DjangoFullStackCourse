@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATES_DIR = os.path.join(BASE_DIR, "templates") #How to find themplates folder
 STATIC_DIR = os.path.join(BASE_DIR, "static") #How to find static folder
 MEDIA_ROOT = os.path.join(BASE_DIR, "media") #How to find media folder
-MEDIA_URL = '/media/' #define the media url
+MEDIA_URL = '/media/' #defines the media url
 
 
 # Quick-start development settings - unsuitable for production
