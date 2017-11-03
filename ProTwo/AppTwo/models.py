@@ -11,7 +11,7 @@ class WebUsers(models.Model):
     name = models.CharField(max_length=264)
     lname = models.CharField(max_length=264)
     email = models.CharField(max_length=264, unique=True)
-    img = models.FileField(upload_to='webusers/', null=True)
+    img = models.FileField(upload_to='webusers/', null=True, blank=True)
     """
     img = models.FileField(upload_to='webusers/', null=True)
     First parameter tell's where to find imgs for that model
