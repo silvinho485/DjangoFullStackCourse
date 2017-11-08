@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Teste</title>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript">
+         function load_content(path) {
+             $.ajax({
+                 url: path,
+                 dataType: 'html',
+             }).then(function(html_response) {
+                 $('#content').html(html_response);
+             });
+         }
+        </script>
+    </head>
+    <body>
+        <nav>
+            <a href="javascript:load_content('/subpage1/')">Subpage1</a>
+        </nav>
+        <div id="content">
+            (o conteúdo vai aqui)
+        </div>
+    </body>
+</html>
