@@ -9,3 +9,9 @@ def other(request):
 
 def relative(request):
     return render(request,'basic_app/relative_url_templates.html')
+
+def teste(request):
+    mydict = {
+        "mydict":"estou aqui!"
+    }
+    return render(request, "basic_app/base.html", mydict)

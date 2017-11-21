@@ -6,7 +6,7 @@ class WebUsersAdmin(admin.ModelAdmin):
     It's used to split the lists in more than on collumn
     and show all the items in it
     """
-    list_display = ('name', 'lname', 'email')
+    list_display = ('name', 'lname', 'email', 'img')
 
 class TopicsAdmin(admin.ModelAdmin):
     list_display = ('top_name',)
