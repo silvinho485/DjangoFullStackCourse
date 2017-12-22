@@ -1,0 +1,18 @@
+#!/bin/python3.5
+
+class No:
+    def __init__(self, carga=None, proximo=None):
+        self._carga = carga
+        self._proximo = proximo
+
+
+    def __str__(self):
+        return str(self._carga)
+
+
+if __name__ == '__main__':
+    no1 = No(1, no2)
+    no2 = No(2, no3)
+    no3 = No(3, no1)
+
+    

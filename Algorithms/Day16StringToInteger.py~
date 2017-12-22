@@ -1,0 +1,6 @@
+#!/bin/python3
+
+import sys
+
+S = map(int, "3 3 4".strip().split(" "))
+print(S)
