@@ -1,0 +1,19 @@
+from selenium import webdriver
+
+from selenium.webdriver.common.keys import Keys
+
+driver = webdriver.Chrome()
+
+driver.get('https://login.skype.com/login?client_id=578134&redirect_uri=https%3A%2F%2Fweb.skype.com')
+
+driver.find_element_by_id('username').send_keys('silvinho485@gmail.com')
+
+driver.find_element_by_id('username').send_keys(Keys.Enter)
+
+driver.find_element_by_id('i0118').send_keys('$ilvio141091')
+
+divOpt.find_element_by_partial_link_text('Amigos preguntones').click()
+
+driver.find_element_by_id('chatInputAreaWithQuotes').send_keys('teste')
+
+driver.find_element_by_id('chatInputAreaWithQuotes').send_keys(Keys.ENTER)

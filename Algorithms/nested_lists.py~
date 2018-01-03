@@ -1,0 +1,11 @@
+if __name__ == '__main__':
+
+
+    names = ['Harry','Berry','Tina','Akriti','Harsh']
+    scores = [37.21, 37.21, 37.2, 41, 39]
+    nested = list(zip(names, scores))
+    nested.sort(key=lambda x:x[1])
+    print(nested)
+
+
+        
