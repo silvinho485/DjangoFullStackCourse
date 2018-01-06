@@ -1,0 +1,12 @@
+def count_substring(string, sub_string):
+    return 
+
+
+
+
+if __name__ == '__main__':
+    string = "ABCDCDC".strip()
+    sub_string = "CDC".strip()
+    
+    count = count_substring(string, sub_string)
+    print(count)

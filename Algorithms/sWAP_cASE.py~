@@ -1,0 +1,8 @@
+#!/bin/python3.5
+def swap_case(s):
+    s = ''.join([(x.lower() if x.isupper() else x.upper()) for x in input()])
+    return s
+
+s = "UUUlll"
+result = swap_case(s)
+print(result)

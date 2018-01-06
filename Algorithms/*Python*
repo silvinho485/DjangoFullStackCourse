@@ -1,1249 +1,215 @@
-Python 2.7.13 (default, May 10 2017, 20:04:28) 
-[GCC 6.3.1 20161221 (Red Hat 6.3.1-1)] on linux2
+Python 3.5.4 (default, Oct  9 2017, 12:07:29) 
+[GCC 6.4.1 20170727 (Red Hat 6.4.1-1)] on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> python.el: native completion setup loaded
->>> 12
->>> 0
->>> 0
->>> 0
->>> 2
->>> 0
->>> 0.5
->>> 0.5
->>> 0.0
->>> 0.5
->>> (0.5, 0.3333333333333333, 0.16666666666666666)
->>> Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 4
-    n = map(int, '1 3 6 4 6'.strip().split()))
-                                             ^
-SyntaxError: invalid syntax
->>> [1, 3, 6, 4, 6]
->>> [3]
->>> 3
->>> (3, [-4, 3, -9, 0, 4, 1])
->>> Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 14, in <module>
-    print (positive_counter(arr))
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 3, in positive_counter
-    for count in ar:
-NameError: global name 'ar' is not defined
->>> 3
->>> Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 29
-    print ("teste 1{}\nTeste 2".format(n)
-                                        ^
-SyntaxError: invalid syntax
->>> teste 13
-Teste 2
->>> Positives: 3
-Negatives: 2
- Zeros: 1
->>> Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 29
-    print ("Positives: {}\nNegatives: {}\n Zeros: {}".format(positivers/6.0, negativers/6.0, zeros/))
-                                                                                                   ^
-SyntaxError: invalid syntax
->>> Positives: 0.5
-Negatives: 0.333333333333
- Zeros: 0.166666666667
->>> 3
+>>> 
+>>> 
+>>> 
+>>> second_lowest
+('Berry', 37.21)
+>>> Harry
+Berry
+>>> a = "Silvio Machado"
+>>> a
+'Silvio Machado'
+>>> a.upper()
+'SILVIO MACHADO'
+>>> a
+'Silvio Machado'
+>>> a.lower()
+'silvio machado'
+>>> a[1]
+'i'
+>>> a[0]
+'S'
+>>> a[0] is lower()
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 22, in <module>
-    n = int(raw_input().strip)
-TypeError: int() argument must be a string or a number, not 'builtin_function_or_method'
->>> 3
--4 -2 -1 1 2 3 0
-Positives: 0.5
-Negatives: 0.5
- Zeros: 0.166666666667
->>> 3
--4 -2 1 2 3 0
-Positives: 0.5
-Negatives: 0.333333333333
- Zeros: 0.166666666667
->>> Positives: 0.5
-Negatives: 0.333333333333
- Zeros: 0.166666666667
->>> Positives: 0.5
-Negatives: 0.333333333333
-Zeros: 0.166666666667
->>> Positives: 0
-Negatives: 0
-Zeros: 0
->>> Traceback (most recent call last):
+NameError: name 'lower' is not defined
+>>> a[0] is lower()
+Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 30
-    positivers/.float(n),
+NameError: name 'lower' is not defined
+>>> a[0]
+'S'
+>>> a[0].lower()
+'s'
+>>> a[0] is .lower()
+  File "<stdin>", line 1
+    a[0] is .lower()
+            ^
+SyntaxError: invalid syntax
+>>> a[0] isupper()
+  File "<stdin>", line 1
+    a[0] isupper()
                ^
 SyntaxError: invalid syntax
->>> Positives: 0.5
-Negatives: 0
-Zeros: 0
->>> Positives: 0.5
-Negatives: 0.333333333333
-Zeros: 0
->>> Positives: 0.5
-Negatives: 0.333333333333
-Zeros: 0.166666666667
->>> 0.5
-0.333333333333\0.166666666667
->>> 0.5
-0.333333333333
-0.166666666667
+>>> a[0].isupper()
+True
+>>> a[1].isupper()
+False
+>>> a[1].islow()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'islow'
+>>> a[1].islower()
+True
 >>> Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 32, in <module>
-    zeros/float(n))
-ValueError: cannot switch from manual field specification to automatic field numbering
->>> 0.50
-0.50
-0.50
->>> 0.500000
-0.500000
-0.500000
->>> 0.5
-0.333333333333
-0.166666666667
->>> print zeros
-1
->>> print ('{:.6f}'.format(zeros))
-1.000000
->>> print ('{:.6f}'.format(zeros/float(6)))
-0.166667
->>> print ('{0:.6f}'.format(zeros/float(6)))
-0.166667
->>> 0.50
-0.50
-0.50
->>> 0.50
-0.33
-0.17
->>> 0.500000
-0.333333
-0.166667
+  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/sWAP_cASE.py", line 4
+    string = [leterfor letter in string if letter.isuper() lambda x:x.lower]
+                            ^
+SyntaxError: invalid syntax
 >>> Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 32, in <module>
-    zeros/float(n))
-ValueError: cannot switch from manual field specification to automatic field numbering
->>> 0.333333
-0.333333
-0.333333
->>> 0.500000
-0.333333
-0.166667
->>> print ('{0:.6f}'.format(zeros/float(6)))
-0.166667
+  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/sWAP_cASE.py", line 4
+    string = [(leter) for letter in string if letter.isuper() lambda x:x.lower]
+                                                                   ^
+SyntaxError: invalid syntax
 >>> Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 32, in <module>
-    zeros/float(n))
-ValueError: Format specifier missing precision
->>> 0.500000
-0.333333
-0.166667
->>> 12
->>>  #
- #
- #
- #
- #
- #
+  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/sWAP_cASE.py", line 4
+    string = [(leter) for letter in string if letter.isuper() lambda x:x.lower()]
+                                                                   ^
+SyntaxError: invalid syntax
 >>> Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 10, in <module>
-    print(space*space + "#")
-TypeError: can't multiply sequence by non-int of type 'str'
->>>       #
-      #
-      #
-      #
-      #
-      #
->>>       ######
-      #######
-      ########
-      #########
-      ##########
-      ###########
->>>       
-       #
-        ##
-         ###
-          ####
-           #####
->>>       #
-      #
-      #
-      #
-      #
-      #
->>>       #
-      #
-      #
-      #
-      #
-      #
->>>       ######
-      #######
-      ########
-      #########
-      ##########
-      ###########
->>>       333333
-      3333333
-      33333333
-      333333333
-      3333333333
-      33333333333
->>>       333333333333
-     3333333333333
-    33333333333333
-   333333333333333
-  3333333333333333
- 33333333333333333
->>>       3
-     3
-    3
-   3
-  3
- 3
->>>       3
-     3
-    3
-   3
-  3
- 3
->>>       3
-     3
-    3
-   3
-  3
- 3
->>>       333333333333333333333333333333333333
-     3333333333333333333333333333333333333
-    33333333333333333333333333333333333333
-   333333333333333333333333333333333333333
-  3333333333333333333333333333333333333333
- 33333333333333333333333333333333333333333
->>>       333333
-     333333
-    333333
-   333333
-  333333
- 333333
->>>       333333
-     333333
-    333333
-   333333
-  333333
- 333333
->>>       #
-       #
-        #
-         #
-          #
-           #
->>>       ######
-     #######
-    ########
-   #########
-  ##########
- ###########
->>>       ######
-     #######
-    ########
-   #########
-  ##########
- ###########
->>> ######
-#######
-########
-#########
-##########
-###########
->>> ######
-#######
-########
-#########
-##########
-###########
->>> ######
-######
-######
-######
-######
-######
->>> ######
-######
-######
-######
-######
-######
+  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/sWAP_cASE.py", line 4
+    string = [(leter) for letter in string lambda x:x.lower()]
+                                                ^
+SyntaxError: invalid syntax
+>>> a
+'Silvio Machado'
+>>> a[1].isuper()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'str' object has no attribute 'isuper'
+>>> a[1].isupper()
+False
+>>> for line in len(a):
+...     print(a[line])
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not iterable
+>>> for line in range(len(a)):
+...     print(a[line])
+... 
+S
+i
+l
+v
+i
+o
+ 
+M
+a
+c
+h
+a
+d
+o
+>>> swap_case("Silvio)
+  File "<stdin>", line 1
+    swap_case("Silvio)
+                     ^
+SyntaxError: EOL while scanning string literal
+>>> swap_case("Silvio")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/sWAP_cASE.py", line 5, in swap_case
+    if line.isupper():
+AttributeError: 'int' object has no attribute 'isupper'
+>>> swap_case("Silvio")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/sWAP_cASE.py", line 6, in swap_case
+    string[line] = string[line].lower()
+TypeError: 'str' object does not support item assignment
+>>> a = "Silvio"
+>>> a[0] = a[0].lower()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>> a[0] = a[0].lower()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>> a[0]
+'S'
+>>> a[0].lower()
+'s'
+>>> a[0] = a[0].lower()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>> a[0] = lower()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'lower' is not defined
+>>> a[0].lower
+<built-in method lower of str object at 0x7f50d49e18f0>
+>>> a[0] = lower
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'lower' is not defined
+>>> a[0] = lower()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'lower' is not defined
+>>> a[0] = lowercase
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'lowercase' is not defined
+>>> a[0] = a[0].lower
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>> a[0] = a[0].lower()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>> print(swap_case("Sil"))
+Sil
+>>> a
+'Silvio'
+>>> a = [(x.upper()) for x in a]
+>>> a
+['S', 'I', 'L', 'V', 'I', 'O']
+>>> a = [(x.upper()) for x in a if x.islower()]
+>>> a
+[]
+>>> a="Silvio"
+>>> a = [(x.upper()) for x in a if x.islower()]
+>>> a
+['I', 'L', 'V', 'I', 'O']
+>>> a="Silvio"
+>>> a = [(x.upper()if x.islower() else x.lower()) for x in a]
+>>> a
+['s', 'I', 'L', 'V', 'I', 'O']
+>>> Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/sWAP_cASE.py", line 4
+    return string = [(x.lower() if x.isupper() else x.upper()) for x in string]
+                  ^
+SyntaxError: invalid syntax
+>>> print(swap_case("AAAAbbb"))
+AAAAbbb
+>>> print(swap_case("AAAAbbb"))
+['a', 'a', 'a', 'a', 'B', 'B', 'B']
+>>> print(swap_case("AAAbbb"))
+aaaBBB
+>>> Digite algoUUUUllll
+uuuuLLLL
+>>> uuuuLLLL
 >>> 
-#
-##
-###
-####
-#####
->>> 6
-5#
-4##
-3###
-2####
-1#####
->>>       
-     #
-    ##
-   ###
-  ####
- #####
->>>       
-     #
-    ##
-   ###
-  ####
- #####
-######
->>>        
-      #
-     ##
-    ###
-   ####
-  #####
- ######
-#######
->>>                     
-                   #
-                  ##
-                 ###
-                ####
-               #####
-              ######
-             #######
-            ########
-           #########
-          ##########
-         ###########
-        ############
-       #############
-      ##############
-     ###############
-    ################
-   #################
-  ##################
- ###################
-####################
->>>                     
-                   #
-                  ##
-                 ###
-                ####
-               #####
-              ######
-             #######
-            ########
-           #########
-          ##########
-         ###########
-        ############
-       #############
-      ##############
-     ###############
-    ################
-   #################
-  ##################
- ###################
-####################
->>>                     #
-                   #
-                  #
-                 #
-                #
-               #
-              #
-             #
-            #
-           #
-          #
-         #
-        #
-       #
-      #
-     #
-    #
-   #
-  #
- #
-#
->>>                     #
-                   #
-                  #
-                 #
-                #
-               #
-              #
-             #
-            #
-           #
-          #
-         #
-        #
-       #
-      #
-     #
-    #
-   #
-  #
- #
-#
->>>                     #
-                   #
-                  #
-                 #
-                #
-               #
-              #
-             #
-            #
-           #
-          #
-         #
-        #
-       #
-      #
-     #
-    #
-   #
-  #
- #
->>>                     
-                   #
-                  ##
-                 ###
-                ####
-               #####
-              ######
-             #######
-            ########
-           #########
-          ##########
-         ###########
-        ############
-       #############
-      ##############
-     ###############
-    ################
-   #################
-  ##################
- ###################
-####################
->>>                     #
-                   ##
-                  ###
-                 ####
-                #####
-               ######
-              #######
-             ########
-            #########
-           ##########
-          ###########
-         ############
-        #############
-       ##############
-      ###############
-     ################
-    #################
-   ##################
-  ###################
- ####################
->>>                    #
-                  ##
-                 ###
-                ####
-               #####
-              ######
-             #######
-            ########
-           #########
-          ##########
-         ###########
-        ############
-       #############
-      ##############
-     ###############
-    ################
-   #################
-  ##################
- ###################
-####################
->>> arr
-[5, 3, 1, 4, 2]
->>> sort.help()
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
-NameError: name 'sort' is not defined
->>> help
-Type help() for interactive help, or help(object) for help about object.
->>> help(sort)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-NameError: name 'sort' is not defined
->>> sorted(arr)
-[1, 2, 3, 4, 5]
->>> print(arr)
-[5, 3, 1, 4, 2]
->>> print(arr.sort())
-None
->>> arr
-[1, 2, 3, 4, 5]
->>> arr.sort()
->>> arr
-[1, 2, 3, 4, 5]
->>> print(arr[1] + arr[2] + arr[3] + arr[4])
-14
->>> print(arr[1] + arr[2] + arr[3] + arr[4])
-14
->>> print(arr[0] + arr[1] + arr[2] + arr[3])
-10
->>> Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 20
-    print(biggest_sum(arr.sort())
-                                ^
+NameError: name 'uuuuLLLL' is not defined
+>>>   File "<stdin>", line 1
+    >>> 
+     ^
 SyntaxError: invalid syntax
->>> Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 20, in <module>
-    print(biggest_sum(arr.sort()))
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 8, in biggest_sum
-    for counter in range(1, len(arr) + 1):
-TypeError: object of type 'NoneType' has no len()
->>> Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 22
-    print(biggest_sum(arr)
-                         ^
-SyntaxError: invalid syntax
->>> 15
->>> 10
->>> 10
->>> 15
->>> 14
->>> 14
->>> (14, 15)
->>> (14, 15)
->>> 1
-2
-3
-4
-(14, 15)
->>> 1
-2
-3
-4
-0
-1
-2
-3
-4
-(14, 15)
->>> Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 23, in <module>
-    print(biggest_sum(arr), littlest_sum(arr))
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 8, in biggest_sum
-    for counter in range(1, len(arr+1)):
-TypeError: can only concatenate list (not "int") to list
->>> 1
-2
-3
-4
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 23, in <module>
-    print(biggest_sum(arr), littlest_sum(arr))
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 9, in biggest_sum
-    summer += arr[counter]
-IndexError: list index out of range
->>> 1
-2
-3
-4
-0
-1
-2
-3
-4
-(14, 15)
->>> 1
-2
-3
-4
-0
-1
-2
-3
-(14, 10)
->>> 0
-1
-2
-3
-1
-2
-3
-4
-(10, 14)
->>> Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 21
-    arr.sort()
-      ^
-SyntaxError: invalid syntax
->>> 5 3 1 4 2    
-0
-1
-2
-3
-1
-2
-3
-4
-(10, 14)
->>> Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 9, in <module>
-    arr_temp = map(inserter[arr_i].strip().split(' '))
-AttributeError: 'list' object has no attribute 'strip'
->>> inserter
-[['1 1 1 0 0 0'], ['0 1 0 0 0 0'], ['1 1 1 0 0 0'], ['0 0 0 0 0 0'], ['0 0 0 0 0 0'], ['0 0 0 0 0 0']]
->>> inserter
-[['1 1 1 0 0 0'], ['0 1 0 0 0 0'], ['1 1 1 0 0 0'], ['0 0 0 0 0 0'], ['0 0 0 0 0 0'], ['0 0 0 0 0 0']]
->>> print(inserter)
-[['1 1 1 0 0 0'], ['0 1 0 0 0 0'], ['1 1 1 0 0 0'], ['0 0 0 0 0 0'], ['0 0 0 0 0 0'], ['0 0 0 0 0 0']]
->>> Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 9, in <module>
-    arr_temp = map(int, inserter[arr_i].strip().split(' '))
-AttributeError: 'list' object has no attribute 'strip'
->>> inserter[0]
-['1 1 1 0 0 0']
->>> Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 9, in <module>
-    arr_temp = map(int, inserter[arr_i].split(' '))
-AttributeError: 'list' object has no attribute 'split'
->>> Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 9, in <module>
-    arr_temp = map(int, inserter[arr_i])
-ValueError: invalid literal for int() with base 10: '1 1 1 0 0 0'
->>> arr
-[['1 1 1 0 0 0'], ['1 1 1 0 0 0'], ['1 1 1 0 0 0'], ['1 1 1 0 0 0'], ['1 1 1 0 0 0'], ['1 1 1 0 0 0']]
->>> 1 1 1 0 0 0
-  File "<stdin>", line 1
-    1 1 1 0 0 0
-      ^
-SyntaxError: invalid syntax
->>> 1 1 1 0 0 0
-  File "<stdin>", line 1
-    1 1 1 0 0 0
-      ^
-SyntaxError: invalid syntax
->>>  1 1 1 0 0 0
-  File "<stdin>", line 1
-    1 1 1 0 0 0
-    ^
-IndentationError: unexpected indent
->>> 1 1 1 1 1 1 1
-  File "<stdin>", line 1
-    1 1 1 1 1 1 1
-      ^
-SyntaxError: invalid syntax
->>>  1 1 1 1 1 1 1
-  File "<stdin>", line 1
-    1 1 1 1 1 1 1
-    ^
-IndentationError: unexpected indent
->>>  1 1 1 1  0 0 0
-  File "<stdin>", line 1
-    1 1 1 1  0 0 0
-    ^
-IndentationError: unexpected indent
->>> 1 1 1 1 0 0 0
-  File "<stdin>", line 1
-    1 1 1 1 0 0 0
-      ^
-SyntaxError: invalid syntax
->>> 1 1 1 0 0 0 
-1 1 1 0 0 0 
-1 1 1 0 0 0 
-1 1 1 0 0 0 
-1 1 1 0 0 0 
-1 1 1 0 0 0 
->>> print arr
-[[1, 1, 1, 0, 0, 0], [1, 1, 1, 0, 0, 0], [1, 1, 1, 0, 0, 0], [1, 1, 1, 0, 0, 0], [1, 1, 1, 0, 0, 0], [1, 1, 1, 0, 0, 0]]
->>> arr
-[['1 1 1 0 0 0'], ['0 1 0 0 0 0'], ['1 1 1 0 0 0'], ['0 0 2 4 4 0'], ['0 0 0 2 0 0'], ['0 0 1 2 4 0']]
->>> arr.len()
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-AttributeError: 'list' object has no attribute 'len'
->>> len(arr)
-6
->>> 
->>> for x in range(36):
-... printx
-  File "<stdin>", line 2
-    printx
-         ^
-IndentationError: expected an indented block
->>> 1 1 1 0 0 0
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 12, in <module>
-    print(arr[counter][counter2])
-IndexError: list index out of range
->>> 1 1 1 0 0 0
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 12, in <module>
-    print(arr[counter][counter2])
-IndexError: list index out of range
->>> arr
-[['1 1 1 0 0 0'], ['0 1 0 0 0 0'], ['1 1 1 0 0 0'], ['0 0 2 4 4 0'], ['0 0 0 2 0 0'], ['0 0 1 2 4 0']]
->>> arr[0][1]
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-IndexError: list index out of range
->>> arr[0]
-['1 1 1 0 0 0']
->>> arr[0][1]
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-IndexError: list index out of range
->>> arr[0][1]
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-IndexError: list index out of range
->>> arr[1]
-['0 1 0 0 0 0']
->>> arr[1][1]
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-IndexError: list index out of range
->>> 1
-1
-1
-0
-0
-0
-1
-0
-0
-0
-1
-1
-1
-0
-0
-0
-0
-2
-4
-4
-0
-0
-0
-2
-0
->>> 1 
-1 
-1 
-0 
-0 
-0 
-1 
-0 
-0 
-0 
-1 
-1 
-1 
-0 
-0 
-0 
-0 
-2 
-4 
-4 
-0 
-0 
-0 
-2 
-0 
->>> arr[1]
-[0, 1, 0, 0, 0, 0]
->>> arr[1][2]
-0
->>> arr[1][1]
-1
->>> ('1 ',)
-('1 ',)
-('1 ',)
-('0 ',)
-('0 ',)
-('0 ',)
-('1 ',)
-('0 ',)
-('0 ',)
-('0 ',)
-('1 ',)
-('1 ',)
-('1 ',)
-('0 ',)
-('0 ',)
-('0 ',)
-('0 ',)
-('2 ',)
-('4 ',)
-('4 ',)
-('0 ',)
-('0 ',)
-('0 ',)
-('2 ',)
-('0 ',)
->>> 1 
-1 
-1 
-0 
-0 
-0 
-1 
-0 
-0 
-0 
-1 
-1 
-1 
-0 
-0 
-0 
-0 
-2 
-4 
-4 
-0 
-0 
-0 
-2 
-0 
->>> 1 
-1 
-1 
-0 
-0 
-0 
-1 
-0 
-0 
-0 
-1 
-1 
-1 
-0 
-0 
-0 
-0 
-2 
-4 
-4 
-0 
-0 
-0 
-2 
-0 
->>> 1 
-1 
-1 
-0 
-0 
-0 
-1 
-0 
-0 
-0 
-1 
-1 
-1 
-0 
-0 
-0 
-0 
-2 
-4 
-4 
-0 
-0 
-0 
-2 
-0 
->>> 1  1  1  0  0  0  1  0  0  0  1  1  1  0  0  0  0  2  4  4  0  0  0  2  0 
->>> 1  1  1  0  0  
-
-0  1  0  0  0  
-
-1  1  1  0  0  
-
-0  0  2  4  4  
-
-0  0  0  2  0  
-
->>> 1  1  1  0  0  0  
-
-0  1  0  0  0  0  
-
-1  1  1  0  0  0  
-
-0  0  2  4  4  0  
-
-0  0  0  2  0  0  
-
-0  0  1  2  4  0  
-
->>> 1 
-1 
-1 
-0 
-0 
-0 
-
-
-0 
-1 
-0 
-0 
-0 
-0 
-
-
-1 
-1 
-1 
-0 
-0 
-0 
-
-
-0 
-0 
-2 
-4 
-4 
-0 
-
-
-0 
-0 
-0 
-2 
-0 
-0 
-
-
-0 
-0 
-1 
-2 
-4 
-0 
-
-
->>> summer1
-90
->>> 1 
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-  File "/home/smachado/Documents/DjangoFullStackDevCourse/Projectfolder/Algorithms/testes.py", line 16, in <module>
-    if controlX < 2:
-NameError: name 'controlX' is not defined
->>> 1 
-1 
-1 
-0 
-0 
-0 
-
-
-0 
-1 
-0 
-0 
-0 
-0 
-
-
-1 
-1 
-1 
-0 
-0 
-0 
-
-
-0 
-0 
-2 
-4 
-4 
-0 
-
-
-0 
-0 
-0 
-2 
-0 
-0 
-
-
-0 
-0 
-1 
-2 
-4 
-0 
-
-
->>> summer1
-30
->>> summer3
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-NameError: name 'summer3' is not defined
->>> summer2
-60
->>> 1 
-1 
-1 
-0 
-0 
-0 
-
-
-0 
-1 
-0 
-0 
-0 
-0 
-
-
-1 
-1 
-1 
-0 
-0 
-0 
-
-
-0 
-0 
-2 
-4 
-4 
-0 
-
-
-0 
-0 
-0 
-2 
-0 
-0 
-
-
-0 
-0 
-1 
-2 
-4 
-0 
-
-
->>> summer1
-4
->>> summer2
-22
->>> 1 
-1 
-1 
-0 
-0 
-0 
-
-
-0 
-1 
-0 
-0 
-0 
-0 
-
-
-1 
-1 
-1 
-0 
-0 
-0 
-
-
-0 
-0 
-2 
-4 
-4 
-0 
-
-
-0 
-0 
-0 
-2 
-0 
-0 
-
-
-0 
-0 
-1 
-2 
-4 
-0 
-
-
->>> summer1
-7
->>> summer2
-19
->>> 1 
-1 
-1 
-0 
-0 
-0 
-
-
-0 
-1 
-0 
-0 
-0 
-0 
-
-
-1 
-1 
-1 
-0 
-0 
-0 
-
-
-0 
-0 
-2 
-4 
-4 
-0 
-
-
-0 
-0 
-0 
-2 
-0 
-0 
-
-
-0 
-0 
-1 
-2 
-4 
-0 
-
-
-None
->>> 1 
-1 
-1 
-0 
-0 
-0 
-
-
-0 
-1 
-0 
-0 
-0 
-0 
-
-
-1 
-1 
-1 
-0 
-0 
-0 
-
-
-0 
-0 
-2 
-4 
-4 
-0 
-
-
-0 
-0 
-0 
-2 
-0 
-0 
-
-
-0 
-0 
-1 
-2 
-4 
-0 
-
-
-19
 >>> 
 
-
-
-
-
-
-
-
-
-
-
-19
->>> 19
 >>> 
