@@ -1,0 +1,5 @@
+import calendar
+calendar.setfirstweekday(calendar.SUNDAY)
+
+month, day, year = map(int, "08 05 2015".split())
+print(calendar.day_name[calendar.weekday(year, month, day)].upper())

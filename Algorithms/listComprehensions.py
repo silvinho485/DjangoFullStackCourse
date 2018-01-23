@@ -1,5 +1,4 @@
-#!/bin/python3.5
-
+#!/bin/python3
 #List comprehension example:
 x, y, z, n = int(1), int(1), int(1), int(2)
 arr = [[a, b, c]
