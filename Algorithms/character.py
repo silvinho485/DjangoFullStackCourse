@@ -10,10 +10,12 @@ class Character(object):
 
     @property
     def name(self):
+        print('Getting name...')
         return self._name
 
     @name.setter
     def name(self, new_name):
+        print('Setting name...')
         self._name = new_name
 
     @property
@@ -43,3 +45,6 @@ if __name__ == '__main__':
 
     cat = Character("Fido", 5, 2)
     print(cat)
+
+    dog = Character("Scooby", 7, 3)
+    print(dog)

@@ -5,7 +5,7 @@ class Vehicle (object):
         self._engine = engine
 
     def ride(self):
-        print "Riding..."
+        print ("Riding...")
 
     def __str__(self):
         return "Number of tires: {}\nEngine: {}".format(self._tires, self._engine)
@@ -17,7 +17,7 @@ class Bike(Vehicle):
 
 
     def cortar_giro(self):
-        print "braananananananana"
+        print ("braananananananana")
 
 class Quadbike(Bike):
     def __init__(self, tires, engine=True, cilinders=1, seats=2):
@@ -29,6 +29,12 @@ class Quadbike(Bike):
             self._tires, self._engine, self._cilinders, self._seats
         )
     
+
+class Car (Vehicle):
+    def __init__(self, tires, engine=True, cilinders = 4, doors=2):
+        super(Car, self).__init__(tires, engine)
+        self.cilinders = cilinders
+        self.doors = doors
 
 # class Quadbike(Bike):
 #     def __init__(self, tires, engine=True, cilinder=1, seats=2):

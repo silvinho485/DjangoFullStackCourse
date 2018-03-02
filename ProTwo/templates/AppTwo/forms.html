@@ -9,7 +9,7 @@
   <body>
     <h1>Please Sign Up:</h1>
     <div class="container">
-      <form method="POST">
+      <form method="POST" enctype="multipart/form-data">
         {{ form.as_p }}
         {% csrf_token %}
         <input type="submit" class='btn btn-primary' value="Submit">

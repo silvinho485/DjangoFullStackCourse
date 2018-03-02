@@ -5,4 +5,3 @@ class NewUserForm(forms.ModelForm):
     class Meta():
         model = WebUsers
         fields = '__all__'
-        # exclude = ['img']

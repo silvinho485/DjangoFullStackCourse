@@ -1,0 +1,5 @@
+inicio do arquivo>
+um monte de bosta
+segunda linha
+terceira linha
+<final do arquivo
